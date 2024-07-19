@@ -5,12 +5,6 @@ monitor both historical and real-time data, providing the ability to visualize k
 and performance indicators. This helps optimize and maintain Automic Automation environments
 effectively, ensuring efficient operations and proactive issue resolution.
 
-<p align="center">
-<img align="center" src="overview.png" alt="ICT Insights overview">
-<br>
-  ICT Insights overview
-</p>
-
 ## Getting Started
 The entire setup and installation process can be divided into three steps:
 
@@ -32,6 +26,12 @@ This option combines all components into one server.
 |:--------------------------------------------------------------------------------------:|:-------------------------:|:-----------------------------------------:|:---------------------------------------------------------------------------------------:|:----------------:|
 | ICT Insights Connector + ICT Insights Repository + Bundle Grafana + Grafana Repository | Windowx x64 / Linux x64   | 32GB MEM, 16 x vCPUs, 2.4GHz, 300 GB disk | Database: Open Source PostgreSQL 14+ <br>Operating system: 64 bit - Windows/Linux       | Open JDK  Java 17 |
 
+<p align="center">
+<img align="center" src="option1.png" alt="ICT Insights with a single server architecture">
+<br>
+  ICT Insights with a single server architecture
+</p>
+
 ### Option 2: Two Servers
 This option separates the components into two servers.
 
@@ -44,6 +44,12 @@ This option separates the components into two servers.
 | **Platforms**         | **Recommended Hardware**                 | **Operating System / Application**                                                             | **JRE Version**   |
 |:---------------------:|:----------------------------------------:|:----------------------------------------------------------------------------------------------:|:-----------------:|
 | Linux/Windows         | 16GB MEM, 8 x vCPUs, 2.4GHz, 100 GB disk | Database: Open Source PostgreSQL 14+ <br>Operating system: 64 bit - Windows/Linux              | Open JDK  Java 17 |
+
+<p align="center">
+<img align="center" src="option2.png" alt="ICT Insights with two servers architecture">
+<br>
+  ICT Insights with two servers architecture
+</p>
 
 ### Option 3: Three Servers
 This option separates the components into three servers.
@@ -62,6 +68,12 @@ This option separates the components into three servers.
 | **Platforms**         | **Recommended Hardware**                 | **Operating System / Application**                                                                                               | **JRE Version**   |
 |:---------------------:|:----------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------:|:-----------------:|
 | Linux/Windows         | 8GB MEM, 4 x vCPUs, 2.4GHz, 100 GB disk  | Database: Open Source PostgreSQL 14+ <br>Operating system: 64 bit - Windows/Linux                                                | Open JDK  Java 17 |
+
+<p align="center">
+<img align="center" src="option3.png" alt="ICT Insights three servers architecture">
+<br>
+  ICT Insights with three servers architecture
+</p>
 
 ### Communication Ports
 The network/firewall configurations of servers with installed ICT Automation Insights components must observe the
